@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13512" started-at="2016-11-15T22:03:31Z" finished-at="2016-11-15T22:03:45Z">
+    <groups>
+      <group name="Delete">
+        <method signature="FunctionalTest.deleteMethodTest()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="deleteMethodTest" class="com.urltest.FunctionalTest"/>
+      </group> <!-- Delete -->
+      <group name="post">
+        <method signature="FunctionalTest.putMethodTest()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="putMethodTest" class="com.urltest.FunctionalTest"/>
+      </group> <!-- post -->
+      <group name="Get">
+        <method signature="FunctionalTest.getMethodTest()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="getMethodTest" class="com.urltest.FunctionalTest"/>
+      </group> <!-- Get -->
+      <group name="Posts">
+        <method signature="FunctionalTest.InsertNewPosts()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="InsertNewPosts" class="com.urltest.FunctionalTest"/>
+      </group> <!-- Posts -->
+    </groups>
+    <test name="Default test" duration-ms="13512" started-at="2016-11-15T22:03:31Z" finished-at="2016-11-15T22:03:45Z">
+      <class name="com.urltest.FunctionalTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="14" started-at="2016-11-16T03:48:31Z" finished-at="2016-11-16T03:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="7296" started-at="2016-11-16T03:48:31Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-11-16T03:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="24" started-at="2016-11-16T03:48:39Z" finished-at="2016-11-16T03:48:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.InsertNewPosts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="InsertNewPosts()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="InsertNewPosts" duration-ms="3002" started-at="2016-11-16T03:48:39Z" finished-at="2016-11-16T03:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertNewPosts -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-11-16T03:48:42Z" finished-at="2016-11-16T03:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.InsertNewPosts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-11-16T03:48:42Z" finished-at="2016-11-16T03:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.deleteMethodTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="deleteMethodTest()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="deleteMethodTest" duration-ms="199" started-at="2016-11-16T03:48:42Z" finished-at="2016-11-16T03:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMethodTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-11-16T03:48:42Z" finished-at="2016-11-16T03:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.deleteMethodTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-11-16T03:48:42Z" finished-at="2016-11-16T03:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.formTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="formTest()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="formTest" duration-ms="2123" started-at="2016-11-16T03:48:42Z" finished-at="2016-11-16T03:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.formTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getAll()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="getAll" duration-ms="73" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAll -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getAll()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getDelete()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getDelete()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="getDelete" duration-ms="0" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getDelete()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getFirstAndLastName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getFirstAndLastName()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="getFirstAndLastName" duration-ms="119" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstAndLastName -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getFirstAndLastName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getFirstName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getFirstName()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="getFirstName" duration-ms="60" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstName -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getFirstName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getMethodTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getMethodTest()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="getMethodTest" duration-ms="70" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.getMethodTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="8" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.idTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="idTest()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="idTest" duration-ms="305" started-at="2016-11-16T03:48:44Z" finished-at="2016-11-16T03:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="10" started-at="2016-11-16T03:48:45Z" finished-at="2016-11-16T03:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.idTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2016-11-16T03:48:45Z" finished-at="2016-11-16T03:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.putMethodTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="putMethodTest()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="putMethodTest" duration-ms="103" started-at="2016-11-16T03:48:45Z" finished-at="2016-11-16T03:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putMethodTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2016-11-16T03:48:45Z" finished-at="2016-11-16T03:48:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.urltest.FunctionalTest.putMethodTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.urltest.FunctionalTest@7fc2413d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="2" started-at="2016-11-16T03:48:45Z" finished-at="2016-11-16T03:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.urltest.FunctionalTest -->
+      <class name="com.bookmanagement.BookmanagementApplicationTests">
+        <test-method status="PASS" signature="contextLoads()[pri:0, instance:com.bookmanagement.BookmanagementApplicationTests@f8c1ddd]" name="contextLoads" duration-ms="4" started-at="2016-11-16T03:48:45Z" finished-at="2016-11-16T03:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextLoads -->
+      </class> <!-- com.bookmanagement.BookmanagementApplicationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
